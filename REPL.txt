@@ -1,4 +1,4 @@
-# Problem statement, get the revenue and number of orders from order_items on daily basis.
+# Problem statement- get the revenue and number of orders from order_items on daily basis.
 #Sqoop the orders and order_items tables to the HDFS.
 
 val ordersRDD = sc.textFile("/user/cloudera/sqoop_import/orders")
